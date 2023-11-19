@@ -11,6 +11,10 @@
         <link rel="stylesheet" href="{% static 'css/stijl.css' %}">
         <title></title>
     </head>
+    <header>
+        <br><br><br>
+        <h1>Mijn website</h1>
+    </header>
     <body>
         {% block content %}
         {% for post in posts %}
@@ -24,4 +28,5 @@
         {% endfor %}
         {% endblock %}
     </body>
+    <footer></footer>
 </html>
